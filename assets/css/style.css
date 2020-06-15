@@ -436,6 +436,121 @@ section {
 }
 
 /*--------------------------------------------------------------
+# SubscribeNewsLetter
+--------------------------------------------------------------*/
+.subsBtn2 {
+
+    background: #fff !important;
+    border-radius: 4px !important;
+    padding: 5px 10px !important;
+    border: none;
+    color: #3498db !important;
+    font-weight: 700;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: .5s ease all
+}
+.subsEmail{
+    background-color: #e4e4ea !important;
+    color: #374054 !important;
+}
+
+.subsBtn {
+    background-color: #1d6fa5 !important;
+    color: white !important;
+    padding: 10px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.subsEmail::placeholder {
+    color: #374054 !important;
+}
+
+.subsEmail::-ms-input-placeholder {
+    color: #374054 !important;
+}
+
+.subsEmail::-moz-placeholder {
+    color: #374054 !important;
+}
+
+
+.subs-container {
+    position: relative;
+    z-index: 500;
+}
+
+
+.subs-box {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    right: 40px;
+    /* top: 0 */
+    /* bottom: 0; */
+    width: 369px; /* Full width */
+    height: 365px; /* Full height */
+    bottom: -305px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    /* background-color: rgba(0,0,0,0.4); /* Black w/ opacity * */
+    background-color: white;
+    border-radius: 12px 12px 0 0;
+    -webkit-box-shadow: 0px -1px 8px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 8px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 8px -2px rgba(0,0,0,0.75);
+    transition: box-shadow 0.4s, bottom 1s;
+}
+
+.subs-box h2{
+  margin-top: 10px;
+}
+
+
+.subs-box:hover {
+    -webkit-box-shadow: 0px -1px 10px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 10px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 9px 1px rgba(0,0,0,0.75);
+}
+
+
+
+@media only screen and (max-width: 775px) {
+    .subs-box {
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        right: 10%;
+        /* top: 0 */
+        /* bottom: 0; */
+        width: 80%; /* Full width */
+        height: 375px; /* Full height */
+        bottom: -305px;
+        background-color: rgb(0,0,0); /* Fallback color */
+        /* background-color: rgba(0,0,0,0.4); /* Black w/ opacity * */
+        background-color: white;
+        border-radius: 12px 12px 0 0;
+        -webkit-box-shadow: 0px -1px 8px -2px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px -1px 8px -2px rgba(0,0,0,0.75);
+        box-shadow: 0px -1px 8px -2px rgba(0,0,0,0.75);
+        transition: box-shadow 0.4s, bottom 1s;
+        padding: 10px;
+    }
+
+    .cross {
+        position: absolute;
+        right: 10%;
+        top: 0;
+    }
+}
+.cross {
+    position: absolute;
+    right: 2px;
+    top: 5px;
+}
+
+.cross:hover {
+    cursor: pointer;
+}
+
+
+/*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
 .facts {
