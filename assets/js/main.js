@@ -171,3 +171,23 @@
   });
 
 })(jQuery);
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+
+   const mvr = document.getElementById('mover');
+  const btn = document.getElementById('move');
+
+  if(btn.className == "move day"){
+    mvr.style.transform = "translateY(-24px)";
+    btn.className = "move night";
+    btn.style.boxShadow = "0px 0px 16px rgba(255, 255, 255, 0.25)";
+    body.style.backgroundColor = "#0E0E0E";
+  }else{
+    mvr.style.transform = "translateY(0)";
+    btn.className = "move day";
+    btn.style.boxShadow = "0px 0px 16px rgba(0, 0, 0, 0.25)";
+    body.style.backgroundColor = "white";
+  }
+}
