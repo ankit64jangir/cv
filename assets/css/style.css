@@ -715,18 +715,35 @@ section {
 /*--------------------------------------------------------------
 # skills
 --------------------------------------------------------------*/
+
+.skills-h3{
+margin-top: 10px;
+font-weight: 400;
+font-size: 1.3em;
+color: #333;
+}
+
+.skills-p{
+  padding-bottom: 25px;
+  color: #555;
+  line-height: 1.5;
+  font-size: .8rem;
+}
+
+
 .skills .progress {
   height: 50px;
   display: block;
   background: none;
 }
 
-.skills .progress .skill {
+.soooo {
   padding: 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
   display: block;
   font-weight: 600;
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
   color: #050d18;
 }

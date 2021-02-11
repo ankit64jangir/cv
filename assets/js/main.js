@@ -184,6 +184,7 @@ function myFunction() {
     btn.className = "move night";
     btn.style.boxShadow = "0px 0px 16px rgba(255, 255, 255, 0.25)";
     body.style.backgroundColor = "#0E0E0E";
+    body.style.Color = "#FFFFFF";
   }else{
     mvr.style.transform = "translateY(0)";
     btn.className = "move day";
